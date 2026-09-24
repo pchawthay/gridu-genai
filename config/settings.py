@@ -44,5 +44,5 @@ class Settings(BaseSettings):
     max_retries: int = 3
 
 
-# Global settings instance
+# Global settings instance.
 settings = Settings()
